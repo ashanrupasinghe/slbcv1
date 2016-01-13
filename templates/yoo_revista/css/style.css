@@ -178,3 +178,123 @@ em.box {
 .wk-gallery-revista-default .nav span { background-image: url(../images/widgetkit/nav_overlay.png); }
 .wk-slideshow-revista-articles .nav span,
 .wk-slideset-revista .nav.icon span { background-image: url(../images/widgetkit/nav.png); }
+
+
+/*slbc changes start*/
+#top-b div.grid-box div.mod-line div.ic_marquee0 div div a img{
+	width: auto !important;
+}
+
+
+/*connect world*/
+#leftmenu_main {
+    width: 100%;
+    height: auto;
+    background-color: #3079C3;;
+}
+#leftmenu_main ul {
+    padding: 0px;
+    width: 100%;
+    list-style: outside none none;
+}
+#leftmenu_main ul li {
+    list-style: outside none none;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+}
+#leftmenu_main ul li a, #leftmenu_main ul li a:visited {
+    display: block;
+    list-style: outside none none;
+    list-style-image: url('../images/Speaker_20_20_b.png');
+    padding: 0px 0px 0px 12px;
+    
+    height: 30px;
+    text-align: left;
+    background-image: url("../images/leftmenu_link.png");
+    background-repeat: repeat-x;
+    margin-top: 5px;
+    color: #d6e5f3;
+    text-decoration: none;
+    font-size: 15px;
+    
+	font-family: "KreonRegular";
+}
+#leftmenu_main ul li a:hover{
+	color: #FFF;
+}
+#leftmenu_main ul li a::before {
+	    content: url('../images/Speaker-512-blue.png');
+}	
+#leftmenu_main ul li a:hover::before {
+	    content: url('../images/Speaker-512_w.png');
+}	
+#leftmenu_main ul:first-child{
+	padding-top: 6px;
+}
+img.ns2-image {    
+    margin-right: 20px !important;
+}
+.ns2-inner p{
+	margin-top:0px !important;
+}
+#innertop div div p img{
+	width:220px;
+	height:220px;
+}
+#sidebar-a div div p img{
+	width:210px;
+	height:220px;
+}
+/*bg changes*/
+body#page.city_fm_body{
+    background: #E2E9ED url("../images/background/worldmap/blue_bg.jpg") repeat scroll 0px 0px !important;
+}
+body#page.city_fm_body div#page-bg { background: url("../images/background/worldmap/bg-city5.png") 50% 0 no-repeat !important; }
+
+/*slider changes*/
+#ais_121 {
+    width: 100%;
+    height: 250px !important;
+}
+#ais_121_wrapper {
+    max-width: 100%;
+}
+
+body#page.city_fm_body div#page-bg div div.wrapper div#main div#maininner section#innertop div.grid-box div.mod-box{min-height: auto !important;}
+
+body#page.city_fm_body div#page-bg div div.wrapper div#main div#maininner section#innertop div div p img {
+    width: 155px;
+    height: auto;
+}
+body#page.city_fm_body div#page-bg div div.wrapper.grid-block header#header div#headerbar{margin-bottom: -37px;}
+
+body#page.city_fm_body div#page-bg div div.wrapper div#main aside#sidebar-b div.grid-box.width100.grid-v div.module.mod-box.deepest div#leftmenu_main ul li a{font-size: 14px;}
+
+/*sinhala national servise*/
+/*bg changes*/
+body#page.sns_fm_body{
+    background: #E2E9ED url("../images/background/worldmap/blue_bg.jpg") repeat scroll 0px 0px !important;
+}
+body#page.sns_fm_body div#page-bg { background: url("../images/background/worldmap/swadeshi-6.png") 50% 0 no-repeat !important; }
+/*body#page.sns_fm_body div#page-bg{width: 265px;,width: 735px;}*/
+.sns-img{
+	width: 190px;
+}
+
+body#page.sns_fm_body div#page-bg div div.wrapper div#main aside#sidebar-b div.grid-box.width100.grid-v div.module.mod-box.deepest div#leftmenu_main ul li a{font-size: 14px;}
+
+#ais_135 {
+    width: 100%;
+    height: 250px !important;
+}
+#ais_135_wrapper {
+    max-width: 100%;
+}
+body#page.sns_fm_body div#page-bg div div.wrapper div#main div#maininner section#innertop div.grid-box div.mod-box{min-height: auto !important;}
+
+body#page.sns_fm_body div#page-bg div div.wrapper div#main div#maininner section#innertop div div p img {
+    width: 155px;
+    height: auto;
+}
+body#page.sns_fm_body div#page-bg div div.wrapper.grid-block header#header div#headerbar{margin-bottom: -37px;}
